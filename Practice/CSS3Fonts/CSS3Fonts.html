@@ -1,24 +1,24 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>CSS3 Embedded Fonts</title>
 
 <style type="text/css">
 
-@font-face{
-	font-family:'DarkHorse4';
-	src: url('fonts/Darkh4.eot'); 
-	src: local('DarkHorse4'), url('fonts/Darkh4.ttf') format('truetype') ;
-   
+@font-face {
+    font-family: 'DarkHorse4';
+    src: url('fonts/Darkh4.eot');
+    src: url('fonts/Darkh4.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Darkh4.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
-
-
-p{
-	font-family:DarkHorse4,Geneva,serif;
-	font-size: 36px;
-
+p {
+    font-family: 'DarkHorse4', Geneva, serif;
+    font-size: 36px;
 }
 
 </style>
