@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <title>Extreme Honeymoons - Graphics</title>
 
-<style>
+<style type="text/css">
+
 
 	#wrapper {
 		width: 900px;
 		margin: 0 auto;
-	}
-
-	#topSection {
-		text-align: center;
-		margin: 0 auto 20px auto;
 	}
 
 	#thumbs, #image {
@@ -107,10 +103,9 @@ if (document.images) {
 
 <div id="wrapper">
 
-<div id="topSection">
 <div>
-	<a href="" onMouseOver="document.getElementById('PrintButton').src=PrintButton2.src;"
-	onMouseOut="document.getElementById('PrintButton').src=PrintButton1.src;">
+	<a href="" onMouseOver="document.PrintButton.src=PrintButton2.src;"
+	onMouseOut="document.PrintButton.src=PrintButton1.src;">
 
 	<img src="images/print5.gif" width="250" height="50"
 	id="PrintButton" alt="PrintButton" style="border:none">
@@ -119,12 +114,12 @@ if (document.images) {
 </div>
 
 
-<div id="logoContainer">
-	<a href="logo.html" onMouseOver="document.getElementById('logoImage').src=logo2.src;"
-	onMouseOut="document.getElementById('logoImage').src=logo1.src;">
+<div id="logo">
+	<a href="logo.html" onMouseOver="document.logo.src=logo2.src;"
+	onMouseOut="document.logo.src=logo1.src;">
 
 	<img src="images/logo1.png" width="133" height="126"
-	id="logoImage" alt="logo" style="border:none">
+	id="logo" alt="logo" style="border:none">
 
 	</a>
 </div>
@@ -156,7 +151,7 @@ if (document.images) {
 <br>
 <br>
 
-</div>
+
 
 </div>
 
