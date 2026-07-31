@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	backgound-color: #fff6e6;
+	font-family: Arial, Helvetica, sans-serif;
+	fon-size:medium;
+	color:#4D3200;
+	
+}
+
+header {
+	
+	width: 900px;
+	height: 200px;
+	background-color: #F3E2D4;
+	text-align: center;
+	padding-top: 10px;
+	margin: auto;
+		
+}
+
+
+section {
+	width: 900px;
+	background-image: url('Images/Project6_Images/2colback.jpg');
+	background-repeat: repeat-y;
+	ovreflow: hidden;
+	margin: auto;
+	
+}
+
+nav {
+	float: left;
+	width: 250px;
+	
+}
+
+article {
+	float: left;
+	width: 650px;
+	text-align: center;
+	
+	
+}
+
+footer{
+	text-align: center;
+	width: 900px;
+	height: 70px;
+	background-color: #F3E2D4;
+	margin: auto;
+}
+
+.logoleft {
+	float: left;
+	padding-top: 0px;
+	padding-left: 15px;
+	
+}
+
+nav a {
+	border: 6px inset #CCCCCC;
+	background-color:#351A00;
+	line-height: 250%;
+	font-weight: bold;
+	font-size: 35px;
+	color: #FFEEE6;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	maring-left: 20px;
+	font-family: Vivaldi;
+	
+}
+
+nav a:hover {
+	color: #FFD380;
+	border: 2px outset #CCCCCC;
+}
+
+h1 {
+	color: #FA9263;
+	text-align: center;
+	font-size: xx-large;
+}
+
+p{ color: #6C3C0D}
+
+
+###### Added these but might have to take out----
+
+#thumbs, #image {
+		width: 900px;
+		text-align: center;
+		margin: 0 auto 0 auto;
+		color: #000;
+	}
+
+	#thumbs {
+		margin-top: 10px;
+	}
+
+			
+	#thumbs img {
+		border: solid 1px #000;
+		margin: 5px;
+	}
+
+	#image{
+		height:500px;
+	}
+
+	.instructions{
+		font-style:italic;
+	}
+
