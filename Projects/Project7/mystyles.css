@@ -2,23 +2,32 @@
 /* CSS Document */
 
 body {
-	
-	backgound-color: #fff6e6;
+	background-color: #515152;
 	font-family: Arial, Helvetica, sans-serif;
-	fon-size:medium;
-	color:#4D3200;
-	
+	font-size: medium;
+	color:#515152;
 }
 
 header {
-	
 	width: 900px;
 	height: 200px;
-	background-color: #F3E2D4;
-	text-align: center;
-	padding-top: 10px;
+	background-color: #8b8b8b;
+	padding: 10px 0;
 	margin: auto;
-		
+	box-sizing: border-box;
+}
+
+.header-row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	height: 100%;
+	width: 100%;
+}
+
+.banner-image {
+	display: block;
 }
 
 
@@ -26,9 +35,8 @@ section {
 	width: 900px;
 	background-image: url('Images/Project6_Images/2colback.jpg');
 	background-repeat: repeat-y;
-	ovreflow: hidden;
+	overflow: hidden;
 	margin: auto;
-	
 }
 
 nav {
@@ -41,60 +49,59 @@ article {
 	float: left;
 	width: 650px;
 	text-align: center;
-	
-	
 }
 
 footer{
 	text-align: center;
 	width: 900px;
 	height: 70px;
-	background-color: #F3E2D4;
+	background-color: #8b8b8b;
 	margin: auto;
 }
 
 .logoleft {
-	float: left;
-	padding-top: 0px;
-	padding-left: 15px;
-	
+	display: block;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
 }
 
 nav a {
 	border: 6px inset #CCCCCC;
-	background-color:#351A00;
+	background-color:#000000;
 	line-height: 250%;
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 32px;
 	color: #FFEEE6;
 	text-decoration: none;
 	padding-left: 10px;
 	padding-right: 10px;
-	maring-left: 20px;
+	margin-left: 20px;
 	font-family: Vivaldi;
-	
 }
 
 nav a:hover {
-	color: #FFD380;
+	color: hwb(298 4% 4%);
 	border: 2px outset #CCCCCC;
 }
 
 h1 {
-	color: #FA9263;
+	color: #000000;
 	text-align: center;
 	font-size: xx-large;
 }
 
-p{ color: #6C3C0D}
+p{ color: #000000;
+	text-align: center;
+	font-size: large;
+}
 
-
-###### Added these but might have to take out----
 
 #thumbs, #image {
-		width: 900px;
+		width: 100%;
+		max-width: 650px;
 		text-align: center;
-		margin: 0 auto 0 auto;
+		margin: 10px auto 0 auto;
 		color: #000;
 	}
 
